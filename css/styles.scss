@@ -16,7 +16,11 @@
 }
 
 
-
+//main body styles
+.logo{
+    width: 10vh;
+    height: 10vh;
+}
 
 //gallery
 .bg{
@@ -38,7 +42,7 @@
     max-resolution: 10vh;
 }
 
-.tile h1 {
+.tiletext {
     font-family: 'Poppins', sans-serif;
     font-size: 2em;
     text-align: center;
