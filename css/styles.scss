@@ -23,9 +23,7 @@
 };
 
 /* gallery */
-.bg{
-    background: tomato;
-};
+
 .box {
     background-color: #fff; */
     border-radius: 6px;
@@ -51,7 +49,13 @@ image{
     height: 125px;
     width: auto;
 };
-
-.hero-body{
+.navbar-brand, .navbar-tabs {
+    align-items: stretch;
+    display: flex;
+    flex-shrink: 0;
+    min-height: 3.25rem;
     background: beige;
-};
+}
+
+
+
