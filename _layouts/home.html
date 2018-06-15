@@ -23,19 +23,11 @@ layout: default
               Home
             </a>
             <a class="navbar-item">
-              Examples
+              About
             </a>
             <a class="navbar-item">
-              Documentation
+              Resume
             </a>
-            <span class="navbar-item">
-              <a class="button is-primary is-inverted">
-                <span class="icon">
-                  <i class="fab fa-github"></i>
-                </span>
-                <span>Download</span>
-              </a>
-            </span>
           </div>
         </div>
       </div>
@@ -46,11 +38,16 @@ layout: default
 <section class="section">
   
 
-     
-    <div class="tile is-ancestor">
+ {% for post in site.posts %}
+
+  
+    <a href="{{ post.url }}"></a>
+ 
+
+    <div  class="tile is-ancestor">
         <div class="tile is-parent is-4">
-            <div class="tile is-child box">
-            <h1>testing</h1>
+            <div class="tile is-child box" href="{{ post.url }}">
+            <h1>{{ post.title }}</h1>
             <p>lorem ipsum</p>
             </div>
         </div>
@@ -67,6 +64,12 @@ layout: default
             </div>
         </div>
     </div>
+    
+{% endfor %}   
+   
+   
+   
+   
     <div class="tile is-ancestor">
         
             <div class="tile is-parent is-3">
@@ -104,10 +107,10 @@ layout: default
         </div>
     
     
-    
-    <div class="footer"></div>            
+            
 </section>
     
+<div class="footer"></div>    
     
     
     
