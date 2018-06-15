@@ -25,6 +25,10 @@
     padding: 0em;
 }
 .tile h1 {
-    font-size: large;
+    font-size: 2em;
     text-align: center;
+}
+.tile.is-ancestor {
+    display: flex;
+    flex-wrap: wrap;
 }
