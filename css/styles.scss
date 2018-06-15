@@ -12,9 +12,7 @@
 
 #nav-toggle-state:checked ~ .nav-menu {
   display: block;
-};
-
-
+}
 
 
 
@@ -36,6 +34,7 @@
 }
 .tile{
     text-align: center; 
+    max-resolution: 10vh;
 }
 
 .tile h1 {
