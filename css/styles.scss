@@ -28,6 +28,10 @@
     font-size: 2em;
     text-align: center;
 }
-.is-ancestor { 
+.tile.is-ancestor{ 
     flex-wrap: wrap;
+}
+
+.tile{
+    text-align: center; 
 }
