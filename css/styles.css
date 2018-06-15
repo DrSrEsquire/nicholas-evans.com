@@ -54,3 +54,9 @@ img.tile{
 img.logo {
     height: 150px;
 }
+
+
+
+h1.is-3.title {
+    text-align: center;
+}
