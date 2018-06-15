@@ -37,20 +37,22 @@ layout: default
   
 <section class="section">
   
+<div class="container">
+    <div  class="tile is-ancestor">
 
  {% for post in site.posts %}
 
-    <div  class="tile is-ancestor">
         <div class="tile is-parent is-4">
             <div class="tile is-child box" href="{{ post.url }}">
-            <img src="{{ post.image}}" alt="">
+            <img src="{{ post.image}}" alt="post image">
             <h1>{{ post.title }}</h1>
             <p>lorem ipsum</p>
             </div>
         </div>
-    </div>    
+      
 {% endfor %}   
-   
+    </div> 
+</div>   
    
    
    
