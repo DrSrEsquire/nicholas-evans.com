@@ -1,6 +1,7 @@
 /* bulma styles */
 @import bulma.min
-
+//    font styles
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600');
 
 /* my styles*/
     
@@ -38,10 +39,11 @@
 }
 
 .tile h1 {
+    font-family: 'Poppins', sans-serif;
     font-size: 2em;
     text-align: center;
 }
-.tile image{
+image{
     height: 125px;
     width: auto;
 }
