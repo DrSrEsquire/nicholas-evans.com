@@ -1,5 +1,6 @@
 ---
 title: Zing
 date: 2018-06-15 16:56:00 Z
+image: "/uploads/zing_mockup.png"
 ---
 
