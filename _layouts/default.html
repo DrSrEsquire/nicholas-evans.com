@@ -11,13 +11,40 @@
     <link rel="mask-icon" href="img/favicons/safari-pinned-tab.svg" color="#5bbad5">
     
     		
-    <link rel="stylesheet" href="/css/styles.css">  
+    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
+    <link rel="stylesheet" href="/css/styles.css">  
     
 </head>
 <body>
 	
-	{{ content }}
+<section class="hero is-medium" id="bg">
+  <!-- Hero head: will stick at the top -->
+  <div class="hero-head">
+    <nav class="navbar">
+      <div class="container">
+        <div class="navbar-brand">
+          <label class="navbar-burger burger nav-toggle"  for="nav-toggle-state" data-target="navbarMenuHeroA">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+
+        </div>
+        
+        
+        {% for page in site.pages %}
+            {% if page.category contains 'myPage' %}
+                <a class="button is-black menuItems" href="{{page.url}}">{{page.title}}</a>
+            {% endif %}
+        {% endfor %}
+       
+      </div>
+    </nav>
+  </div>
+</section>  
+
+	
    
    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
