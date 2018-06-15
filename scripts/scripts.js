@@ -1,1 +1,1 @@
-var mixer = mixitup('.container');
+console.log('hello world');
