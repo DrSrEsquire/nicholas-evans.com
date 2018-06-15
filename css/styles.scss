@@ -31,14 +31,18 @@
     display: block;
     padding: 0em;
 }
+.ancestor{
+    flex-wrap:wrap;
+}
+.tile{
+    text-align: center; 
+}
+
 .tile h1 {
     font-size: 2em;
     text-align: center;
 }
-.tile.is-ancestor{ 
-    flex-wrap: wrap;
-}
-
-.tile{
-    text-align: center; 
+.tile image{
+    height: 125px;
+    width: auto;
 }
