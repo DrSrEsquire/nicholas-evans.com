@@ -15,22 +15,14 @@ layout: default
           </label>
 
         </div>
-        <div id="navbarMenuHeroA" class="navbar-menu">
-          <div class="navbar-end">
-            <a class="navbar-item is-active" href="{{site.url}}">
-              Home
-            </a>
-            <a class="navbar-item" href="{{site.url}}">
-              About
-            </a>
-            <a class="navbar-item"  href="{{site.url}}">
-              Resume
-            </a>
-             <a class="navbar-item"  href="{{site.url}}">
-              Contact
-            </a>
-          </div>
-        </div>
+        
+        
+        {% for page in site.pages %}
+            {% if page.category contains 'myPage' %}
+                <a class="button is-black menuItems" href="{{page.url}}">{{page.title}}</a>
+            {% endif %}
+        {% endfor %}
+       
       </div>
     </nav>
   </div>
