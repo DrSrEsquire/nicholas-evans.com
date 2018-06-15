@@ -18,14 +18,17 @@ layout: default
         </div>
         <div id="navbarMenuHeroA" class="navbar-menu">
           <div class="navbar-end">
-            <a class="navbar-item is-active">
+            <a class="navbar-item is-active" href="www.nicholas-evans.com/">
               Home
             </a>
-            <a class="navbar-item">
-              About
+            <a class="navbar-item" href="www.nicholas-evans.com/about/">
+              {{site.pages.title}}
             </a>
-            <a class="navbar-item">
-              Resume
+            <a class="navbar-item"  href="www.nicholas-evans.com/resume/">
+              {{site.pages.title}}
+            </a>
+             <a class="navbar-item"  href="www.nicholas-evans.com/resume/">
+              {{site.pages.title}}
             </a>
           </div>
         </div>
@@ -60,7 +63,7 @@ layout: default
         <div class="tile is-parent is-3"><a href= "{{ post.url }}"> </a>
             <div class="tile is-child box">
             <img src="{{ post.image}}" alt="post image">
-            <h1 class=".tiletext">{{ post.title }}</h1>
+            <h1 class="tiletext">{{ post.title }}</h1>
             </div>
         </div>
       
