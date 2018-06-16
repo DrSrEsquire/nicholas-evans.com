@@ -1,8 +1,4 @@
 ---
-
-title: Contact
-date: 2018-06-04 19:08:00 Z
-layout:default
 ---
 
 ## Email
