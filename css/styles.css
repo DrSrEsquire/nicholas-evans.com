@@ -65,3 +65,12 @@ h1.is-3.title {
 .has-background-grey-lighter {
     background-image:;
 }
+
+
+
+
+.test{
+    width:10px;
+    height:10px;
+    background: red;
+}
